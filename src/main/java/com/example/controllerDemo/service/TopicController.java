@@ -10,7 +10,7 @@ import java.util.List;
 public class TopicController {
 
     @Autowired
-    private topicService topicService;
+    private TopicService topicService;
     @RequestMapping("/topics")
     public List<Topic>  getAllTopic()
     {
