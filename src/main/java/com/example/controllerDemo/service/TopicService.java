@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class topicService {
+public class TopicService {
 
 
     public List<Topic> getTopicList()
